@@ -1,0 +1,77 @@
+h1 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #aaaaaa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #aaaaaa;
+}
+
+.Bookmark,
+.tabel-data {
+  background-color: #EEEEEE;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-weight: 700;
+}
+
+.form-control:focus {
+  border: black 2px solid !important;
+  box-shadow: none !important;
+  color: #212529;
+}
+
+.form-control:hover {
+  box-shadow: 0 0 8px #ccc;
+}
+
+.footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: #aaaaaa;
+}
+
+#nameAlert,
+#urlAlert {
+  color: #6d0000;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: #6d0000 1px solid;
+}
+
+tbody tr td {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width:568px)
+{
+  .tabel-data {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  tbody tr td {
+    font-size: 15px !important;
+  }
+
+  .tabel-data button ,
+  .tabel-data a {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}

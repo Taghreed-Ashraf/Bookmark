@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>Bookmark</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="keywords" content=""> 
+  <meta name="description" content="">  
+  <meta name="author" content="Taghreed Ashraf"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1 class="my-5">Bookmarker</h1>
+      <div class="line mt-4 mb-3"></div>
+    </header>
+
+    <section class="Bookmark mx-3">
+      <div class="  text-center">
+        <h2 class="text pt-5 pb-3">Bookmark your favorite sites</h2>
+
+        <div class="mb-4">
+          <label for="siteNameInput">Site Name</label>
+          <input type="text" id="siteNameInput" class="form-control form-control-sm w-75 mx-auto rounded-3 my-2" placeholder="Bookmark Name">
+          <p id="nameAlert" class="alert alert-danger w-75 mx-auto p-1 d-none">Name is required </p>
+        </div>
+
+        <div>
+          <label for="siteUrlInput">Site URL</label>
+          <input type="text" id="siteUrlInput" class="form-control form-control-sm w-75 mx-auto rounded-3 my-2" placeholder="Website URL">
+          <p id="urlAlert" class="alert alert-danger w-75 mx-auto p-1 d-none">Url Field is required </p>
+        </div>
+        
+        <button id="addBtn" class="btn btn-primary mb-5 mt-3 px-4">Submit</button>
+      </div>
+    </section>
+
+      <input id="searchInput" type="text" class="form-control my-4 w-75 mx-auto" placeholder="Search By Site Name...">
+
+    <div class="tabel-data mx-3 mt-4 rounded-3"> 
+      <table class="table mt-4 w-50 align-middle">
+        <tbody id="tableBody">
+          
+        </tbody>
+      </table>
+    </div>
+    
+    <footer>
+      <div class="line my-4"></div>
+      <p class="footer ms-4">© 2019 Bookmarker Inc.</p>
+    </footer>
+  </div>
+  
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
